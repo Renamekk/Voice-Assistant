@@ -66,28 +66,28 @@ All voice commands are configured in the **commands.yaml** file. Each command in
 
 ```
 
-#### 👤 Author
+### 👤 Author
 
-### Developed by Renamekk
+#### Developed by Renamekk
 
-### Currently supports only Russian.
+#### Currently supports only Russian.
 
-### New language support is planned in future versions.
+#### New language support is planned in future versions.
 
 ### 📝 License
 
-### This project is licensed under the MIT License.
+#### This project is licensed under the MIT License.
 
 #### You are free to:
 
-#### Use the code for personal or commercial projects
+- Use the code for personal or commercial projects
 
-#### Modify it as you see fit
+- Modify it as you see fit
 
-#### Distribute your own versions
+- Distribute your own versions
 
 ### However:
 
-#### Any modifications or forks are not affiliated with or endorsed by the original author.
+- Any modifications or forks are not affiliated with or endorsed by the original author.
 
-#### The original author bears no responsibility for any issues caused by modified versions.
+- The original author bears no responsibility for any issues caused by modified versions.
