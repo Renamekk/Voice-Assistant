@@ -1,0 +1,1 @@
+﻿Run *RunAs Taskmgr.exe

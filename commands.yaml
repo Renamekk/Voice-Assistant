@@ -1,0 +1,276 @@
+list:
+  # Exe
+  - command:
+      action: ahk
+      exe_path: ahk\screenshot.exe
+      exe_args:
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - сделай скриншот
+      - сделай снимок экрана
+      - сними экран
+
+  - command:
+      action: ahk
+      exe_path: ahk\rollupwin.exe
+      exe_args:
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+    phrases:
+      - сверни все окна
+      - сверни окна
+
+  - command:
+      action: ahk
+      exe_path: ahk\blocking.exe
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - заблокируй компьютер
+      - заблокируй комп
+
+  - command:
+      action: ahk
+      exe_path: ahk\bufer.exe
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - открой буфер обмена
+      - покажи буфер обмена
+      - запусти буфер обмена
+      - буфер обмена
+
+  - command:
+      action: ahk
+      exe_path: ahk\language.exe
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - смени раскладку
+      - поменяй раскладку
+      - смени язык
+      - поменяй язык
+      - переключи на русский
+      - переключи на английский
+      - смени раскладку на русскую
+      - поменяй раскладку на русскую
+      - поменяй раскладку на английскую
+      - смени раскладку на английскую
+      - смени язык на русский
+      - поменяй язык на русский
+      - смени язык на английский
+      - поменяй язык на английский
+
+  - command:
+      action: ahk
+      exe_path: ahk\sleep.exe
+    voice:
+      sounds:
+        - jarvis-og\off.wav
+    phrases:
+      - спящий режим
+      - ждущий режим
+      - иди поспи
+
+  - command:
+      action: ahk
+      exe_path: ahk\taskmngr.exe
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - запусти диспетчер задач
+      - открой диспетчер задач
+      - диспетчер задач
+
+  - command:
+      action: ahk
+      exe_path: ahk\trash.exe
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - очисти корзину
+      - почисти корзину
+      - очистка корзины
+
+  # Url
+  - command:
+      action: url
+      url_path: https://www.youtube.com/
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - открой ютуб
+      - ютуб
+      - ютубчик
+
+  - command:
+      action: url
+      url_path: https://chatgpt.com/
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - открой чат
+      - чат
+      - гпт
+      - чатик
+      - ии
+      - чат гпт
+
+  - command:
+      action: url
+      url_path: https://www.amazon.com/
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - открой амазон
+      - амазон
+      - пошли закупаться
+      - амазончик
+      - амазона
+      - мзн
+
+  - command:
+      action: url
+      url_path: https://www.ebay.com/
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - открой бэй
+      - бэй
+      - ебеи
+      - бомбей
+      - бабеи
+      - кляйн анцайген
+      - кляйн анцайге
+
+  - command:
+      action: url
+      url_path:
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - открой расписание
+      - посмотрим расписание
+      - расписание
+      - школа
+      - готовся к школе
+      - школьника я
+
+  - command:
+      action: url
+      url_path: # адрес роутера
+    voice:
+      sounds:
+        - jarvis-og\ok1.wav
+        - jarvis-og\ok2.wav
+        - jarvis-og\ok3.wav
+        - jarvis-og\ok4.wav
+    phrases:
+      - открой интернет
+      - найстройки интернета
+      - открой настройки интернета
+
+  # jokes
+
+  - command:
+      action: joke
+    voice:
+      joke_sounds:
+        - jarvis-remake\joke1.wav
+        - jarvis-remake\joke2.wav
+        - jarvis-remake\joke3.wav
+        - jarvis-remake\joke4.wav
+    phrases:
+      - расскажи шутку
+      - шутка
+      - давай анекдот
+      - пошути
+      - посмейся
+      - развесели
+      - мне грустно
+      - эх
+      - грусненько
+
+  # Others
+  - command:
+      action: others
+    voice:
+      others_sounds:
+        - jarvis-og\thanks.wav
+    phrases:
+      - молодец
+      - хороший мальчик
+      - спасибо
+      - ура
+      - что бы я без тебя делал
+      - от души
+      - лучший
+      - спасибо брат
+      - спасибо братан
+      - лучший братан
+      - спасибо бро
+      - спасибо тебе
+
+  # write commands
+
+  # - command:
+  #     action: commands
+  #   voice:
+  #     sounds:
+  #       - jarvis-og\ok1.wav
+  #       - jarvis-og\ok2.wav
+  #   phrases:
+  #     - команда
+  #     - записать команду
+  #     - добавить команду
+  #     - добавь команду
+  #     - добавить действие
+  #     - действие
