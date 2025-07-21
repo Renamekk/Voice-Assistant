@@ -22,9 +22,14 @@ A simple and customizable voice assistant written in Python. Supports adding new
   ```
 
 4. Launch the assistant:
+
    ```
    python main.py
    ```
+
+5. Wakeword is:
+   **Ассистент**
+   You can change it in the **env.py** file
 
 ### 2. Editing Commands
 
@@ -44,7 +49,9 @@ All voice commands are configured in the **commands.yaml** file. Each command in
       - jarvis-og/ok3.wav
       - jarvis-og/ok4.wav
   phrases:
-    -                                # trigger phrases
+    - Снимок экрана                                # trigger phrases
+    - Сними экран
+    - сделай скриншот
 ```
 
 #### 🌐 Example: Open Website Command
