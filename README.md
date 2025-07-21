@@ -95,6 +95,6 @@ All voice commands are configured in the **commands.yaml** file. Each command in
 
 ### However:
 
-- Any modifications or forks are not affiliated with or endorsed by the original author.
+- Any modifications or forks are not affiliated with or endorsed by the original author. (Renamekk)
 
 - The original author bears no responsibility for any issues caused by modified versions.
