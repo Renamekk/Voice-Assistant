@@ -83,7 +83,7 @@ All voice commands are configured in the **commands.yaml** file. Each command in
 
 ### 📝 License
 
-#### This project is licensed under the MIT License.
+#### This project is licensed under the [MIT License](LICENSE).
 
 #### You are free to:
 
